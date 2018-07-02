@@ -3,7 +3,7 @@ from tests.base_test import BaseTest
 
 
 class ItemTest(BaseTest):
-    def test_create_item(self):
+    def test_create_item(self);
         item = ItemModel('test', 19.99, 1)
 
         self.assertEqual(item.name, 'test',
