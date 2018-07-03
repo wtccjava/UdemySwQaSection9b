@@ -7,7 +7,7 @@ class ItemTest(BaseTest):
         item = ItemModel('test', 19.99, 1)
 
         self.assertEqual(item.name, 'test',
-                         "The name of the item after creation does not equal the constructor argument.")
+                         "The name of the item after creationn does not equal the constructor argument.")
         self.assertEqual(item.price, 19.99,
                          "The price of the item after creation does not equal the constructor argument.")
         self.assertEqual(item.store_id, 1,
